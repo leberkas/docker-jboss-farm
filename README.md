@@ -1,7 +1,9 @@
 docker-jboss-farm
 =================
 
-Dockerfile and some bash scripts for running many jboss instances.
+Dockerfile and some bash scripts for running many jboss instances. 
+
+DISCLAMER: This is just an example how it could be done - i'm not responsible for any data loss!
 
 How does it work
 ----------------
@@ -27,4 +29,4 @@ Files
   change: 
   * ```-p 8080:8080``` to ```-p 8180:8080``` and 8009:8009 to 8109:8009 
   * ```-e 'JBID=node1'``` to ```-e 'JBID=node2'```  -- or whatever you like for node id (this is important for modjk !!)
-  * -v /tmp/log_jb1:/opt/jboss-as-7.1.1.Final/standalone/log leberkas/jb to -v /tmp/log_jb2:/opt/jboss-as-7.1.1.Final/standalone/log -- this are the log locations - please chose some folder/disk wthich suite your space requirements.
+  * ```-v /tmp/log_jb1:/opt/jboss-as-7.1.1.Final/standalone/log leberkas/jb``` to ```-v /tmp/log_jb2:/opt/jboss-as-7.1.1.Final/standalone/log``` -- this are the log locations - please chose some folder/disk which suite your space requirements.
