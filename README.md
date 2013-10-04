@@ -3,7 +3,7 @@ docker-jboss-farm
 
 Dockerfile and some bash scripts for running many jboss instances. 
 
-DISCLAMER: This is just an example how it could be done - i'm not responsible for any data loss!
+
 
 How does it work
 ----------------
@@ -37,3 +37,14 @@ Files
   the jboss config file. 2 Things where changed: 
   * added ajp protocol (port 8009)
   * changed list address (from 127.0.0.1 to 0.0.0.0)
+
+
+
+
+
+
+
+
+
+--
+disclaimer: This is just an example how it could be done - i'm not responsible for any data loss!
