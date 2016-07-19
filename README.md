@@ -46,6 +46,8 @@ Files
 
 
 -branch test-1.1-
-branch test-2.2
+-branch test-2.2-
+branch test-2.3
+
 --
 disclaimer: This is just an example how it could be done - i'm not responsible for any data loss!
